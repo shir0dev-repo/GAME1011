@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\knight.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\orc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\undead.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\impl\wizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\Schoolwork\GAME1011\Assignment 1\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\enemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\gameobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\knight.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\orc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\undead.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\Schoolwork\GAME1011\Assignment 1\src\header\wizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\Schoolwork\GAME1011\Assignment 1\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{FB1E02E3-8586-3B74-819B-A6976C9F1CB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{EFB47DC1-E2DD-39FD-9C42-739A6758D53E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

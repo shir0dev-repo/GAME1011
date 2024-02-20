@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch with Debugger",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "cwd": "${workspaceRoot}",
+      "program": "${workspaceRoot}\\build\\Debug\\assignment1.exe",
+      "console": "integratedTerminal"
+    }
+  ]
+}
