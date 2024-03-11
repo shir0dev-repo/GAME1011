@@ -10,12 +10,12 @@ std::string player::getName() const { return m_name; }
 
 std::string player::getHealthString() const {
   return std::to_string(m_currentHealth)
-    .append("/")
-    .append(std::to_string(m_maxHealth))
-    .append(" HP ")
-    .append("(")
-    .append(std::to_string(getHealthPercent()))
-    .append("%)");
+      .append("/")
+      .append(std::to_string(m_maxHealth))
+      .append(" HP ")
+      .append("(")
+      .append(std::to_string(getHealthPercent()))
+      .append("%)");
 }
 
 int player::getHealth() const { return m_currentHealth; }
@@ -27,7 +27,7 @@ void player::setHealth(int value) {
 
 int player::getMaxHealth() const { return m_maxHealth; }
 void player::setMaxHealth(int value) {
-    m_maxHealth = value;
+  m_maxHealth = value;
   if (m_currentHealth < m_maxHealth)
     m_currentHealth = m_maxHealth;
 }
@@ -41,6 +41,13 @@ void player::normalAttack() const {
   std::cout << m_name << " is attacking..." << std::endl;
 }
 
+void player::takeDamage(int dmg) {
+  std::cout << m_name << " took " << dmg << " damage!" << std::endl;
+  m_currentHealth -= dmg;
+  if (m_currentHealth < 0)
+    m_currentHealth = 0;
+}
+
 std::ostream &player::print(std::ostream &os) const {
   os << m_name << ": " << getHealthString() << std::endl;
 
@@ -49,7 +56,8 @@ std::ostream &player::print(std::ostream &os) const {
 
 bool player::compare(const gameObject &g) const {
   if (const player *plrPtr = dynamic_cast<const player *>(&g)) {
-    return plrPtr->m_name == m_name && plrPtr->getHealthPercent() == getHealthPercent();
+    return plrPtr->m_name == m_name &&
+           plrPtr->getHealthPercent() == getHealthPercent();
   }
 
   // gameObject g is not of type player.

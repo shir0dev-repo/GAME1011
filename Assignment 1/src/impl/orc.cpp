@@ -3,11 +3,12 @@
 const std::string orc::speciesName = "Orc";
 
 const std::string orc::m_taunts[5] = {
-"Me meet trolls smarter! You hit head as baby?",
-"Want tough fight! You fight like tiny orc baby!",
-"Is that battle cry? Or baby cry?",
-"Me find sleeping harder. Fight more good!",
-"I find the lack of angular velocity within the trajectory of your swing deeply alarming." };
+    "Me meet trolls smarter! You hit head as baby?",
+    "Want tough fight! You fight like tiny orc baby!",
+    "Is that battle cry? Or baby cry?",
+    "Me find sleeping harder. Fight more good!",
+    "I find the lack of angular velocity within the trajectory of your swing "
+    "deeply alarming."};
 
 orc::orc(int maxHealth) : enemy(maxHealth) {}
 
@@ -16,7 +17,12 @@ void orc::normalAttack() const {
   std::cout << speciesName << " attacks normally." << std::endl;
 }
 
-void orc::tauntPlayer() const { std::cout << getRandomTaunt(); }
+void orc::takeDamage(int dmg) {
+  enemy::takeDamage(dmg);
+  std::cout << speciesName << " took " << dmg << " damage!" << std::endl;
+}
+
+void orc::tauntPlayer() const { std::cout << getRandomTaunt() << std::endl; }
 
 std::string orc::getRandomTaunt() const {
   // random range equation for taunt (0 to  m_taunts length, hard-coded to 4)

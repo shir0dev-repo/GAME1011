@@ -1,7 +1,8 @@
 #pragma once
 
-#include <string>
 #include "gameobject.h"
+#include <string>
+
 
 class enemy : public gameObject {
 public:
@@ -17,6 +18,7 @@ public:
   virtual void normalAttack() const override;
   virtual void tauntPlayer() const = 0;
   virtual std::string getRandomTaunt() const = 0;
+  virtual void takeDamage(int);
 
 protected:
   int m_currentHealth;

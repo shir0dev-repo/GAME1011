@@ -1,7 +1,7 @@
 #pragma once
 
-#include <string>
 #include "enemy.h"
+#include <string>
 
 class undead : public enemy /*number one*/ {
 public:
@@ -11,6 +11,7 @@ public:
   void normalAttack() const override final;
   void tauntPlayer() const override final;
   std::string getRandomTaunt() const override final;
+  void takeDamage(int) override final;
 
 private:
   static const std::string m_taunts[5];

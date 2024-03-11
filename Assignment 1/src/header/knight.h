@@ -7,7 +7,7 @@ public:
   knight(std::string, int, int);
   static const std::string specialAttackName;
 
-  int getSpecialAttackDamage() const;
+  int getSpecialAttackDamage() const override final;
 
   void normalAttack() const override final;
   void specialAttack() const override final;

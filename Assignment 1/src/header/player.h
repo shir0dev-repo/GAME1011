@@ -1,7 +1,7 @@
 #pragma once
 
-#include <string>
 #include "gameobject.h"
+#include <string>
 
 class player : public gameObject {
 public:
@@ -18,6 +18,8 @@ public:
 
   void normalAttack() const override;
   virtual void specialAttack() const = 0;
+  virtual int getSpecialAttackDamage() const = 0;
+  void takeDamage(int);
 
 protected:
   std::string m_name;
