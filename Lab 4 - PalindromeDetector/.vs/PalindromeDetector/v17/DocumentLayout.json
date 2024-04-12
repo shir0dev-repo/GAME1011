@@ -1,0 +1,50 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Schoolwork\\GAME1011\\Lab 4 - PalindromeDetector\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5EFD8872-86D5-43CF-A97B-960011C53A43}|PalindromeDetector.vcxproj|E:\\Schoolwork\\GAME1011\\Lab 4 - PalindromeDetector\\PalindromeDetector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{5EFD8872-86D5-43CF-A97B-960011C53A43}|PalindromeDetector.vcxproj|solutionrelative:PalindromeDetector.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "xstring",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xstring",
+              "ViewState": "AQIAAF0OAAAAAAAAAAAIwHUOAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-04-02T20:41:22.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PalindromeDetector.cpp",
+              "DocumentMoniker": "E:\\Schoolwork\\GAME1011\\Lab 4 - PalindromeDetector\\PalindromeDetector.cpp",
+              "RelativeDocumentMoniker": "PalindromeDetector.cpp",
+              "ToolTip": "E:\\Schoolwork\\GAME1011\\Lab 4 - PalindromeDetector\\PalindromeDetector.cpp",
+              "RelativeToolTip": "PalindromeDetector.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-02T19:33:42.309Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

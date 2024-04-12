@@ -1,0 +1,3 @@
+﻿  PalindromeDetector.cpp
+E:\Schoolwork\GAME1011\Lab 4 - PalindromeDetector\PalindromeDetector.cpp(9,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  PalindromeDetector.vcxproj -> E:\Schoolwork\GAME1011\Lab 4 - PalindromeDetector\x64\Debug\PalindromeDetector.exe

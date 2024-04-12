@@ -1,3 +1,0 @@
-E:/Schoolwork/GAME1011/CharacterCustomizer/build/CMakeFiles/CharacterCustomizer.dir
-E:/Schoolwork/GAME1011/CharacterCustomizer/build/CMakeFiles/ALL_BUILD.dir
-E:/Schoolwork/GAME1011/CharacterCustomizer/build/CMakeFiles/ZERO_CHECK.dir
